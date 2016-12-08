@@ -1,0 +1,33 @@
+html{background:#1abc9c}
+body{font:300 normal 16px/1.5 'Raleway', sans-serif;background:#fff;color:#000}
+
+h1{color:#000}
+h2{margin:20px 0 50px}
+a{color:#000}
+
+.navbar-default, header, footer{background:#f8f5f2}
+header{border-top:5px solid #EE3124}
+
+.navbar-default{border:none;border-radius:0;border-bottom:1px solid #ccc}
+.navbar-brand{height:auto}
+.navbar-brand h1{margin:0}
+.navbar-brand a:hover{text-decoration:none;color:#EE3124}
+
+
+.navbar-toggle{margin-top:17px}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover{background-color:#EE3124}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none}
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff}
+.nav li{text-align:center;border-top:1px solid #EE3124}
+.navbar-nav{margin-top:0;margin-bottom:0}
+
+.box{background:#f8f5f2;padding:10px 20px 10px 20px;border-top:5px solid #EE3124;margin-bottom:30px}
+.box a{text-align:center;display:block;font-size:14px;margin:20px 0;text-transform:uppercase;color:#EE3124}
+
+footer{padding:20px 0;margin-top:50px}
+small{display:block}
+
+@media only screen and (max-width : 766px) {
+.navbar{margin-bottom:0}
+.navbar-default{border:none}
+}
